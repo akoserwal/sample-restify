@@ -1,0 +1,21 @@
+{
+  "name": "sample-restify",
+  "version": "1.0.0",
+  "description": "sample app using restify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "restify"
+  ],
+  "author": "akoserwa",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "restify": "^7.1.1",
+    "restify-clients": "^2.0.2",
+    "socket.io": "^2.1.0"
+  }
+}
